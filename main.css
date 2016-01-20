@@ -1,0 +1,3206 @@
+body {
+	width: 100%;
+    white-space: normal;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+	overflow-x: hidden;
+}
+
+/*------Universal Navigation CSS---------*/
+
+.container {
+	 background-color: #212121 !important;
+}
+
+.container .navbar-header {
+	background: #212121 !important;
+}
+
+#navbar .navbar-nav {
+	margin-left: 150px;
+	position: relative !important;
+}
+
+.nav .dropdown .dropdown-toggle {
+	background: inherit;
+}
+
+.navbar-header .navbar-brand {
+	color: white !important;
+	font-family: 'Cabin Sketch', cursive;
+	background: #212121;
+}
+
+.navbar-header button {
+	margin-right: 350px;
+}
+
+.navbar #phone_number {
+	float: right;
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Cabin Sketch', cursive;
+	padding-top: 15px;
+	margin-right: 20px;
+}
+
+#navbar {
+	background: #212121;
+}
+
+#navbar .nav .dropdown>.dropdown-toggle {
+	background: inherit;
+}
+
+#navbar ul li a {
+	color: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Nixie One', cursive;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.navbar .nav .active a {
+	color: white !important;
+	border-bottom: 8px solid white;
+  background-color: #212121;
+}
+
+.navbar .nav .active .dropdown-menu li {
+	width: 100% !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0!important;
+}
+
+.navbar .nav .active .dropdown-menu li a {
+	color: black !important;
+	background-color: inherit;
+	border-radius: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0!important;
+}
+
+.navbar .nav .active a:hover {
+	 background-color: #212121;
+}
+
+#navbar .nav .dropdown ul li:hover {
+	border-bottom: 0px;
+}
+
+nav {
+	margin: auto;
+	border-bottom: 2px solid white;
+}
+
+nav ul {
+	margin: auto !important;
+}
+
+nav ul li {
+	display: inline-block;
+	color: white;
+	font-size: 1em;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+nav ul li:hover {
+	border-bottom: 2px solid white;
+    transition: border-bottom .4s ease;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+nav ul .active:hover {
+	border-bottom: 0px;
+}
+
+nav ul li a:hover {
+	text-shadow: 1px 1px 3px gray;
+}
+
+.navbar .nav .active .dropdown-menu li a {
+	color: gray;
+}
+
+.dropdown-menu {
+	background-color: white;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	box-shadow: 0px 1px 1px 2px gray;
+}
+
+.active a ul li a {
+	border-bottom: none;
+	color: black;
+}
+
+.dropdown-menu li {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px !important;
+	text-align: center;
+	font-family: 'Nixie One', cursive;
+	font-size: 1.25em;
+	width: 20em !important;
+}
+
+.dropdown-menu li a {
+	line-height: 50px;
+	border-bottom: 0px !important;
+	color: black !important;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.dropdown-menu li a:hover {
+	text-decoration: underline;
+	box-shadow: none;
+	background-color: white;
+	border-bottom: 0px;
+	color: white;
+}
+
+.container, .body_wrapper {
+	width: 100% !important;
+	margin: 0 auto;
+	background: black;
+}
+
+.left .glyphicon, .right .glyphicon {
+	display: none;
+}
+
+aside {
+	float: right;
+	margin-top: 45px;
+	color: black;
+}
+
+aside ul li {
+	list-style-type: none;
+}
+
+/*-----------End of Universal Navigation CSS---------*/
+
+/*---------Start of Universal Footer CSS----------*/
+
+.footer-distributed{
+    position: relative;
+	background-color: white;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 3em 3.5em;
+	margin-top: 2em;
+	padding-bottom: 2em;
+}
+
+#ct-footer #blue-skies {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*--------Footer left--------*/
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-company-name span {
+	font-family: 'Nixie One', cursive;
+	font-size: .8em;
+	letter-spacing: .03em;
+}
+
+/*--------The company logo-----------*/
+
+.footer-distributed h3{
+	color:  #212121;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: .03em;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #212121;
+}
+
+/*-----------Footer links-----------*/
+
+.footer-distributed .footer-links{
+	color:  #212121;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links .return-arrow {
+	margin-left: 7.5px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	font-family: 'Nixie One', cursive;
+}
+
+.footer-distributed .footer-links a:hover {
+	text-decoration: underline;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #212121;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: .03em;
+	margin: 0;
+	font-family: 'Nixie One', cursive;
+}
+
+/*----------Footer Center-----------*/
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #212121;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: black;
+	vertical-align: middle;
+	margin:0;
+	font-weight: bold;
+	letter-spacing: .03em;
+	font-family: 'Nixie One', cursive;
+}
+
+.footer-distributed .footer-center p span{
+	letter-spacing: .03em;
+	display:block;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	text-decoration: none;;
+}
+
+
+/*----------Footer Right---------*/
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #484A49;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #484A49;
+	font-size: 14px;
+	font-family: 'Nixie One', cursive;
+	letter-spacing: .03em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons .social-icon img {
+	width: 1.9em;
+	background: white;
+}
+
+/*----------End of Universal Footer CSS-----------*/
+
+/*---------Home Page CSS-------------*/
+
+#home-opener {
+	margin-top: -20px;
+	height: auto;
+	background-color: #212121;
+  position: relative;
+  z-index: 1;
+    width: 100%;
+}
+
+#home-opener img {
+	width: 85em;
+	max-height: 45em;
+	margin-top: 6.75em;
+	position: relative;
+	z-index: 1;
+	border-radius: 10px;
+	box-shadow: 1.5px 1.5px 1.5px #dedede;
+    
+}
+
+#home-sub-opener {
+	margin: auto;
+	width: 100%;
+	color: #dedede;
+	position: relative;
+	z-index: 5;
+	border-radius: 15px;
+}
+
+#home-sub-opener h3 {
+	margin-top: .35em;
+	font-family: 'Great Vibes', cursive !important;
+	font-size: 6em;
+	letter-spacing: .07em;
+	color: #dedede;
+	text-shadow: 1px 1px 1px #dedede;
+}
+
+#home-sub-opener p {
+	font-family: 'Nixie One', cursive;
+	width: 50em;
+	color: #dedede;
+	margin: auto;
+	font-size: 1.5em;
+	margin-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+#home-sub-opener img {
+	display: none;
+	width: 5em !important;
+	padding-top: 1.5em;
+	margin: auto;
+	border-radius: 0;
+	box-shadow: 0px 0px 0px 0px;
+}
+
+.body_wrapper h1 {
+	color: white;
+	padding-top: 450px;
+	font-size: 7em;
+	margin: auto;
+	text-shadow: 2px 2px 2px gray;
+}
+
+.thumbnail .caption {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+
+.thumbnail h3 {
+	text-shadow: .5px .5px .5px gray;
+}
+
+.thumbnail .caption p {
+	font-weight: bold;
+	color: #383838;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.1em;
+	margin-top: 50px;
+	letter-spacing: 1.5px;
+}
+
+.service_buttons {
+	height: auto;
+	 background: ##212121;
+background-image: url("zenbg-1.png"), url("zenbg-2.png");
+background-repeat: repeat-y, repeat;
+}
+
+.service_buttons #service_header {
+	padding-top: 2em;
+	font-size: 2.75em;
+	color: #969899;
+	font-family: 'Arvo', serif;
+	 background: ##212121;
+background-image: url("zenbg-1.png"), url("zenbg-2.png");
+background-repeat: repeat-y, repeat;
+font-weight: bold;
+}
+
+#home-line {
+    height: 0px;
+    color: black;
+    background-color: black;
+    width: 25em;
+}
+
+.row {
+	padding-top: 10px;
+	width: 100%;
+	margin: auto;
+	font-family: 'Arvo', serif;
+	 background: ##212121;
+background-image: url("zenbg-1.png"), url("zenbg-2.png");
+background-repeat: repeat-y, repeat;
+}
+
+.row .thumbnail {
+	height: 55em;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	box-shadow: 0px 1.5px 1.5px 1.5px #969899;
+}
+
+.row .col-sm-6 .caption  {
+	width: 100% !important;
+}
+
+.row .col-sm-6 .caption p {
+	width: 100%;
+	font-family: 'Duru Sans', sans-serif;
+	font-weight: normal;
+    line-height: 1.5em;
+}
+
+.service_buttons .caption p a {
+    text-shadow: .25px .25px .25px #212121;
+}
+
+.row .col-sm-6 .caption .home-jumps {
+  text-align: center;
+}
+
+.caption p > .btn-default:hover {
+	color: #212121;
+}
+
+.row .thumbnail h3 {
+	font-size: 1.3em;
+	letter-spacing: 1.25px;
+	text-decoration: underline;
+}
+
+.row .thumbnail p {
+	font-size: 1em;
+	width: 100%;
+	font-family: 'Arvo', serif;
+}
+
+.row .col-sm-6 .home-jumps .btn-default {
+  font-weight: bold;
+    font-family: 'Arvo', serif;
+}
+
+.row .col-sm-6 {
+	padding-top: 50px;
+	padding-left: .35em;
+	padding-right: .35em;
+    overflow: auto;
+}
+
+/*-------------Hover CSS For Home Page 'Learn More' Buttons-----------*/
+
+.service_buttons .caption p a:hover {
+    background-color: #212121;
+    color: white;
+    -webkit-transition: background-color .3s ease, color .3s ease;
+    -moz-transition: background-color .3s ease, color .3s ease;
+    -o-transition: background-color .3s ease, color .3s ease;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+/*----------------About CSS-------------------*/
+
+.about-body {
+  width: 100%;
+  white-space: normal;
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+    background-color: #807E7E;
+}
+
+#about-container {
+	height: auto;
+    background: #212121;
+	margin-top: -25px;
+}
+
+#about-container img {
+	width: 70em;
+	max-height: 40em;
+	margin-top: 7em;
+	border-radius: 5px;
+    box-shadow: 3px 1px 5px #141414;
+}
+
+#about-container p {
+	width: 60%;
+	margin: auto;
+	font-size: 1.5em;
+	color: #dedede;
+	font-family: 'Nixie One', cursive;
+	padding-top: 25px;
+	padding-bottom: 1em;
+}
+
+#about-container h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 6em;
+	color: #dedede;
+	padding-top: 10px;
+	letter-spacing: .07em;
+    text-shadow: 1px 1px 1px #dedede;
+}
+
+#about-header-line {
+    width: 80em;
+    height: .5px;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    background-color: #dedede;
+    border: 0;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 80%;
+	height: 8px;
+	background-color: #212121;
+	opacity: .6;
+	border-top: 1px solid #212121;
+	border-bottom: 1px solid #fff;
+}
+
+ #about-short-story {
+ 	padding-top: 50px;
+	background: #212121;
+	height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+     background-color: #807E7E;
+}
+
+#about-short-story .what {
+	float: left;
+	width: 50%;
+}
+
+#about-short-story .what a:hover {
+  color: white;
+}
+
+#about-short-story .who {
+	float: right;
+	width: 50%;
+}
+
+#about-short-story .who p {
+	padding-bottom: 1.5em;
+}
+
+#about-short-story span {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#about-short-story h2 {
+	font-size: 3em;
+	color: #EDEDED;
+	font-family: 'Fredericka the Great', cursive;
+	padding-bottom: .75em;
+    text-shadow: .5px .5px .5px #dedede;
+    letter-spacing: 1px;
+}
+
+#about-short-story p {
+	padding-bottom: 40px;
+    margin: auto;
+	font-family: 'Duru Sans', sans-serif;
+	font-weight: normal;
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.15em;
+    color: #E8E8E8;
+}
+
+#about-wrapper {
+	height: auto;
+    position: relative;
+    background-color: #807E7E;
+}
+
+#about-left {
+	width: 70em;
+    margin: auto;
+	height: auto;
+    padding-top: 2.5em
+}
+
+#about-left h3 {
+	color: #EDEDED;
+	margin-bottom: 15px;
+	font-family: 'Fredericka the Great', cursive;
+    text-shadow: .25px .25px .25px #212121;
+}
+
+#about-left p {
+	margin-top: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #CCCCCC;
+}
+
+#about-left table {
+	margin: auto;
+    float: left;
+    margin-top: 1em;
+}
+
+#about-left table td img {
+	width: 15em;
+	height: 10em;
+	padding: 10px;
+}
+
+#about-left table td #nifr {
+	width: 15em;
+	height: 20em;
+	padding: 10px;
+}
+
+#about-left #insurance-list li {
+	list-style-type: none;
+	line-height: 35px;
+	font-size: 1.2em;
+	margin-top: 10px;
+	font-family: 'Duru Sans', sans-serif;
+	color: #E8E8E8;
+}
+
+#about-left #insurance-list a {
+	color: inherit;
+}
+
+#about-left #insurance-list a:hover, #about-left #insurance-list a li:hover {
+	color: #212121;
+	text-decoration: underline;
+}
+
+#footer-line {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+
+/*-----------Packouts Page CSS-------------*/
+
+#pr-body {
+    background: ##212121;
+background-image: url("ZenBG.png");
+    background-attachment: fixed;
+}
+
+.pr-header {
+    width: 100%;
+}
+
+.pr-header h2 {
+    color: white;
+    padding-top: 1.25em;
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 5em;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 2px 2px 2px #dedede;
+    letters-spacing: 1px;
+}
+    
+.services-container {
+    width: 70em;
+    height: auto;
+    overflow: auto;
+    margin: auto;
+    margin-top: .5em;
+    background-color: #dedede;
+    border-radius: 5px;
+}
+
+.services-container p {
+    margin: auto;
+	margin-top: 25px;
+	font-size: 1.15em;
+	color: #dedede;
+	font-family: 'Lora', serif;
+    width: 45em;
+}
+
+.services-container div {
+    width: 100%;
+    margin: auto;
+}
+
+#design-divider {
+	width: 12.5em;
+	padding-top: 2em;
+	margin-bottom: 1.5em;
+}
+
+hr.right-line {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 20em;
+	height: 1px;
+	background-color: #212121;
+	opacity: .6;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+#emergency-tips p {
+	color: red;
+    margin: auto;
+	padding-top: 15px;
+	font-family: 'Nixie One', cursive;
+    text-shadow: .25px .25px .25px #E0000B;
+    letter-spacing: .25px;
+}
+
+.services-container .emergency-tip {
+    color: #212121;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.services-container h3 {
+	font-size: 2em;
+	font-family: 'Fredericka the Great', cursive;
+	color: #212121;
+	padding-bottom: 20px;
+    text-shadow: .25px .25px .25px #212121;
+    letter-spacing: .05px;
+    border-bottom: 2px solid #212121;
+}
+
+.services-container ul, .services-container li {
+	padding-bottom: 10px;
+	list-style-type: none;
+	width: 100%;
+	margin: auto;
+	padding-right: 1.25em;
+	padding-left: 1.25em;
+	color: #212121;
+	font-size: 1.1em;
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+
+ #right-services,  #right-crr {
+	background-color: #BDBBBB;
+     box-shadow: 2px 1px 3px #212121;
+}
+
+.services-container #right-services h3 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.services-container #right-services h3, .services-container #right-services li, .services-container #right-crr h3, .services-container #right-crr li, .services-container #tl-services h3, .services-container #tl-services li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.services-container #right-cartage h3, .services-container #right-cartage li, .services-container #tl-services h3, .services-container #tl-services li {
+    color: #212121;
+}
+
+.services-container #download-icon {
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+
+/*-------------Refinishing & Reupholstery Page CSS--------------*/
+
+#ref-body {
+    background: #212121;
+}
+
+.ref-container {
+     background-color: #C19A6B;
+     background: #C19A6B;
+}
+.ref-header {
+    margin: auto; 
+    height: auto;
+}
+
+#show-gallery p {
+    margin: auto;
+    color: #dedede;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+#ref-line {
+    height: 0px;
+    background-color: white;
+    width: 10em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.ref-header h2 {
+    padding-top: 1.5em;
+}
+
+.ref-header p {
+    font-size: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+.ref-header .row {
+     background-image: url("ref-header.jpg");
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.reup-fill {
+  height: auto;
+  background-image: url("reup-leather.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reup-fill h1 {
+  color: #dedede;
+  font-family: 'Fredericka the Great', cursive;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-size: 4em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-shadow: .75px .75px .75px #dedede;
+}
+
+.row {
+    background: inherit;
+}
+
+.row .col-lg-4 {
+	padding-left: 0.1;
+	padding-right: .1;
+}
+
+.row .col-lg-4 h2, .row .col-lg-4 p {
+	color: #dedede !important;
+}
+
+.row .col-lg-4 p {
+	line-height: 1.5em;
+	font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.row .col-lg-4 h2 {
+	font-family: 'Fredericka the Great', cursive;
+    text-shadow: .25px .25px .25px #dedede;
+}
+
+/*-----------------------STORAGE PAGE CSS------------------------*/
+
+.carousel-inner img {
+	max-height: 70em;
+    width: 100%;
+}
+
+.container-marketing {
+    height: auto;
+    background: white;
+    overflow: auto;
+}
+
+.row .col-md-4 .storage-headers {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    font-family: 'Life Savers', serif;
+    text-shadow: .75px .75px .75px #212121;
+}
+
+.row .col-md-4 #storage-left, .row .col-md-4 #storage-right {
+    background: #212121;
+    color: white;
+    text-shadow: .75px .75px .75px #dedede;
+}
+
+#storage-footer {
+	border-top: 5px double black;
+}
+
+/*-----------Contents Track CSS--------------*/
+
+#tech-body {
+    background: #212121;
+}
+
+#ct-body {
+  width: 100%;
+  white-space: normal;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+	color: rgba(92, 100, 98, 0.4) !important;
+	overflow-x: hidden;
+}
+
+#ct-heading {
+    max-height: 60em;
+	width: 100%;
+	z-index: 2;
+	background-image: url("qr-code.png");
+  background-repeat: no-repeat;
+  background-position: center 12.5em;
+  background-size: 40em 40em;
+  background-color: white;
+    overflow: auto;
+    overflow-y: hidden;
+    text-shadow: .5px .5px .5px #171C5C;
+}
+
+#ct-heading p {
+	padding-top: 4.75em;
+	position: relative;
+	color: #080C3B;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.25em;
+}
+
+#ct-heading span {
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+#ct-heading #ct-top-head {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 3.5em;
+	z-index: 10;
+	position: relative;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: left;
+	width: 30%;
+	padding-top: 2.25em;
+	line-height: 1.25em;
+} 
+
+#ct-heading #ct-second-head {
+	font-family: 'Fredericka the Great', cursive;
+	margin-left: 1.5em;
+}
+
+#ct-heading #ct-bottom-head {
+	font-family: 'Nixie One', cursive;
+	float: right;
+	position: relative;
+	bottom: 7em;
+}
+
+#ct-heading #ct-bottom-bottom-head {
+	font-family: 'Fredericka the Great', cursive;
+	float: right;
+	position: relative;
+	bottom: 7em;
+	padding-left: 1.5em;
+	clear: both;
+}
+
+#ct-heading #rage-heading {
+	margin-left: 4em;
+	font-size: 3.25em;
+}
+
+.ct-heads {
+    color: #080C3B;
+	font-weight: bold;
+	font-family: 'Nixie One', cursive;
+	letter-spacing: .1em;
+	font-size: 3.5em;
+	text-align: left;
+	width: 30%;
+	padding-top: .5em;
+	line-height: 1.5em;
+	margin-left: 1em;
+}
+
+.ct-body-heads {
+	color: #dedede;
+	font-weight: bold;
+	font-family: 'Fredericka the Great', cursive;
+	letter-spacing: .1em;
+	font-size: 2.75em;
+	padding-top: .5em;
+	line-height: 1.5em;
+	margin-left: 1em;
+	font-style: normal;
+    text-shadow: .75px .75px .75px #dedede;
+    margin-bottom: .5em;
+}
+
+#files-heading {
+	margin-top: .5em;
+}
+
+#ct-paper {
+	margin-top: 1em;
+}
+
+#tablet-heading {
+	color: #212121;
+    text-shadow: .75px .75px .75px #212121;
+}
+
+#tech-test-1, #tech-test-2, #tech-test-3, #tech-test-4 {
+	position: relative;
+}
+
+#tech-test-1 {
+	height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+#tech-test-right {
+    margin: auto;
+	height: 100%;
+	width: 70em;
+	position: relative;
+}
+
+#tech-test-right span {
+  color: white;
+  font-weight: bold;
+}
+
+#tech-test-right p {
+	font-size: 1.5em;
+    width: 40em;
+	margin: auto;
+	margin-top: .25em;
+	color: #dedede;
+	font-family: 'Dosis', sans-serif;
+	border-top: 5px groove #dedede;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+    text-shadow: .2px .2px .2px #dedede;
+}
+
+#mobile-line {
+	display: none;
+}
+
+#ct-divider-a {
+    margin: auto;
+}
+
+#tech-test-2 {
+	height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#tech-test-btm-right {
+	float: right;
+    margin-right: 1.5em;
+	position: relative;
+}
+
+#tech-test-btm-right img {
+    margin-top: 5.5em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+	
+#tech-test-btm-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+    margin-left: 1em;
+}
+
+#tech-test-btm-left p {
+	font-size: 1.5em;
+	color: #dedede;
+	font-family: 'Dosis', sans-serif;
+	margin: auto;
+	margin-top: .5em;
+	width: 100%;
+	border-top: 5px groove #dedede;
+    padding-right: .25em;
+    padding-left: .25em;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+    text-shadow: .2px .2px .2px #dedede;
+}
+
+#tech-test-3 {
+	background-color: white !important;
+	background: white;
+	height: auto;
+    overflow: auto;
+}
+
+#tech-test-btm-btm-right {
+	float: right;
+	width: 50%;
+	margin-top: 1.5em;
+    margin-right: 1em;
+	clear: both;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+#tech-test-btm-btm-right p {
+	color: #212121;
+	font-size: 1.5em;
+	font-family: 'Dosis', sans-serif;
+	margin: auto;
+	width: 100%;
+    padding-left: .5em;
+    padding-right: .5em;
+	border-top: 5px groove #212121;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	font-weight: bold;
+    text-shadow: .05px .05px .05px #212121;
+}
+
+#tech-test-btm-btm-right .small-qr-code img {
+    width: 1.25em;
+    margin-left: .25em;
+}
+
+#tech-test-btm-btm-left {
+	float: left;
+	position: relative;
+    margin-left: 2em;
+}
+
+.glyphicon {
+	width: 25px;
+	margin-left: 5px;
+}
+
+#tech-test-btm-btm-left img {
+	margin-top: 7.5em;
+}
+
+#tech-test-4 {
+	width: 100%;
+	height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#tech-btm-btm-left {
+	margin: auto;
+	width: 70em;
+	height: 100%;
+	position: relative;
+}
+
+#tech-btm-btm-left p {
+	margin: auto;
+    width: 40em;
+	margin-top: 2em;
+	font-size: 1.5em;
+	font-family: 'Dosis', sans-serif;
+	color: #dedede;
+	border-top: 5px groove #dedede;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+    text-shadow: .2px .2px .2px #dedede;
+}
+
+.ct-line {
+	margin-top: -50px;
+	background: #212121;
+	margin-bottom: 0px !important;
+	width: 100%;
+}
+
+.service_buttons {
+    background: #212121;
+}
+
+.row #ct-add {
+	height: auto;
+	border: 0px;
+	box-shadow: none;
+    background: #212121;
+}
+
+#ct-additional .col-sm-6 {
+	width: 50%;
+	border-top: 5px ridge #dedede;
+	border-left: 2.5px ridge #dedede;
+}
+
+#ct-additional #ct-add {
+  width: 100%;
+}
+
+.row #ct-add p, .row #ct-add h3 {
+	color: #dedede;
+}
+
+.row #ct-add h3 {
+	font-size: 1.5em;
+	font-family: 'Fredericka the Great', cursive;
+	line-height: 1.25em;
+}
+
+.row #ct-add p {
+	width: 100;
+    line-height: normal;
+    padding-left: .5em;
+    padding-right: .5em;
+	font-family: 'Dosis', sans-serif;
+	margin-bottom: 2.5em;
+	text-align: center;
+	font-size: 1.37em;
+    text-shadow: .2px .2px .2px #dedede;
+}
+
+#ct-additional {
+	height: auto;
+    overflow: auto;
+}
+
+#ct-additional #ct-benefits {
+	color: #212121;
+	font-size: 3em;
+	font-family: 'Fredericka the Great', cursive;
+	letter-spacing: .1em;
+	font-weight: bold;
+    background: #dedede;
+    margin-top: .5em;
+    text-shadow: .75px .75px .75px #dedede;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*-------------Testimonials Page CSS--------------*/
+
+#test-body {
+     background: ##212121;
+background-image: url("ZenBG.png");
+    background-attachment: fixed;
+}
+
+.test-container {
+	width: 70em;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: .5em;
+	background: white;
+	position: relative;
+	z-index: 1;
+    border-radius: 5px;
+    border: 2.5px groove #dedede;
+}
+
+#test-heading {
+	width: 100%;
+	margin: auto;
+    margin-bottom: 1em;
+	background: white;
+}
+
+#test-heading h2 {
+	width: 100%;
+	margin: auto;
+	padding-top: 3.5em;
+	padding-bottom: 1.75em;
+	font-size: 3em;
+	color: #212121;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+    text-shadow: 1.25px 1.25px 1.25px #212121;
+}
+
+.test-container #top-test {
+	margin-top: 0;
+}
+
+.test-container .gray-test, .test-container .white-test {
+	position: relative;
+	height: auto;
+	overflow: auto;
+	width: 100%;
+	margin: auto;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
+
+.test-container p {
+	position: relative;
+	font-size: 1.15em;
+	text-align: left;
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+	font-family: 'Arvo', serif;
+	width: 40em;
+    text-shadow: .1px .1px .1px #212121;
+}
+
+.show-more-tests {
+    border-bottom: 1px solid #212121;   
+}
+.slider p {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-shadow: 0;
+}
+
+.test-container .star {
+	padding-right: 1em;
+	bottom: .5em;
+	position: relative;
+}
+
+.test-container .gray-test {
+	background-image: url('thumbs-up-gray.jpg');
+	background-repeat: no-repeat;
+	background-size: 13em;
+	background-position: right center;
+	background-color: #dedede;
+	box-shadow: .5px 2px .75px 0px gray;
+}
+
+.test-container .white-test {
+	background-image: url('thumbs-up-white.jpg');
+	background-repeat: no-repeat;
+	background-size: 13em;
+	background-position: left center;
+}
+
+.test-container .gray-test p {
+	float: left;
+	clear: both;
+	position: relative;
+	padding-left: 2.5em;
+}
+
+.test-container .white-test p {
+	float: right;
+	clear: both;
+	position: relative;
+	padding-right: 2.5em;
+}
+
+.test-container .white-test .test-reference {
+	color: #c49633;
+}
+
+.test-container .gray-test .test-reference {
+	color: #0c7af0;
+}
+
+.test-container .test-reference {
+	padding-top: .35em;
+	position: relative;
+	float: right;
+	font-weight: bold;
+}
+
+/*-----------Contact Page CSS-----------------*/
+
+#contact-body {
+	background: #212121;
+}
+
+#email-header {
+	background: #dedede;
+	width: 100%;
+}
+
+#email-header h1 {
+	padding-top: 1.75em;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	color: #212121;
+	font-weight: bold;
+    text-shadow: 1px 1px 1px #212121;
+}
+
+#email-header p {
+	font-family: 'Lora', serif;
+	width: 50em;
+	margin: auto;
+	font-size: 1.25em;
+	padding-top: 2em;
+	padding-bottom: 2.5em;
+    text-shadow: .15px .15px .15px #212121;
+}
+
+#about-map {
+	background: #212121;
+	height: auto;
+    margin: auto;
+	margin-top: .5em;
+    width: 100%;
+}
+
+#about-map #map {
+    width: 70em;
+    margin: auto;
+    padding-top: 2.5em;
+}
+
+#about-map #map .top-contact-info {
+    width: 100%;   
+}
+
+#map ul {
+	margin: auto;
+	width: 100%;
+}
+
+#map li {
+	list-style-type: none;
+	color: white;
+	font-size: 1.5em;
+	width: 100%;
+	margin: auto;
+	line-height: 1.5em;
+	font-family: 'Lora', serif;
+}
+
+#map a p {
+	padding-top: 25px;
+}
+
+#below-map-line {
+   margin: auto;
+    margin-bottom: 1.5em;
+}
+
+#contact-left {
+	float: left;
+	width: 50%;
+}
+
+#contact-right {
+	float: right;
+	width: 50%;
+}
+
+#map-canvas {
+	width: 40em;
+	height: 500px;
+	background-color: #ccc;
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 0px 2px 2px 2px black;
+}
+
+#above-email-line {
+    margin: auto;
+    padding-top: 1.5em;
+}
+
+#email-container {
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 5em;
+	background: white;
+	width: 50em;
+	height: auto;
+}
+
+#email-container h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Fredericka the Great', serif;
+    font-weight: bold;
+}
+
+/*----------MEDIA CSS-----------------------------------------------------------------*/
+
+@media screen and (min-height: 975px) {
+  
+/*---------Home Media CSS For This Resolution Range-----------*/
+
+#home-sub-opener p {
+	padding-bottom: .25em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1585px) {
+
+	#ct-heading #ct-bottom-head, #ct-heading #ct-bottom-bottom-head {
+		font-size: 3em;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1565px) {
+
+/*----------------Storage Media CSS For This Resolution Range----------------------*/
+
+.carousel-inner img {
+	max-height: 60em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1475px) {
+
+/*-------------About Media For This Resolution Range---------------*/
+
+.check-list p {
+	font-size: 3em !important;
+}
+    
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#tech-test-btm-right img {
+    margin-top: 5em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1445px) {
+
+	#navbar .nav li {
+		margin-left: .7em;
+		margin-right: .7em;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1425px) {
+  
+/*-----------About Media CSS For This Resolution Range----------*/
+
+#about-container h1 {
+	font-size: 6em;
+}
+
+/*--------------Packouts & Restoration Media CSS For This Resolution Range------------*/
+
+#pr-heading-table td p {
+	width: 95%;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1405px) {
+  
+/*----------------ContentsTrack Media CSS For This Resolution Range-----------------*/
+
+#ct-heading {
+	background-size: 30em 30em;
+	max-height: 45em;
+}
+
+#ct-heading #ct-top-head, #ct-heading #ct-second-head, #ct-heading #rage-heading, #ct-heading #ct-bottom-head, #ct-heading #ct-bottom-bottom-head {
+	font-size: 2.5em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1375px) {
+
+/*------------Home Media CSS For This Resolution Range-----------------*/
+
+#home-opener img {
+	max-height: 40em;
+}
+    
+.row .col-sm-6 .home-jumps .btn-default {
+    margin-top: -4em !important;
+}
+    
+/*-------------About Media CSS For This Resolution Range---------------*/
+
+#about-container h1 {
+	font-size: 3.75em;
+}
+
+#about-container p {
+	font-size: 1.3em;
+}
+
+/*-----------------Refinishing Media CSS For This Resolution Range---------------------*/
+
+.reup-fill {
+	height: auto;
+}
+
+.reup-fill h1 {
+	padding: 1em;
+}
+
+/*------------------Storage Media CSS For This Resolution Range-----------------------*/
+
+.container-marketing #left-storage-cap h2 {
+	padding-left: 1em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1335px) {
+
+/*---------------ContentsTrack Media CSS For This Resolution Range---------------*/
+    
+#tech-test-btm-btm-left img {
+	margin-top: 12em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1300px) {
+
+/*-----------Home Media For This Resolution Range---------------*/
+
+.element_header p {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.elements, .elements .element-row .thumbnail, .elements .element-row .thumbnail img {
+	height: 20em;
+}
+
+
+/*--------------ContentsTrack Media For This Resolution Range--------------*/
+
+#ct-heading #ct-upper-header {
+	width: 95%;
+}
+
+/*-----------------------Storage Media CSS For This Resolution Range---------------------*/
+
+.container-marketing .storage-caps h2 {
+	font-size: 4.75em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1285px) {
+    
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#tech-test-btm-right {
+    margin-right: 2px;
+}
+    
+#tech-test-btm-right img {
+    margin-top: 12.5em;
+}
+    #ct-add img {
+        width: 100%;
+        padding-left: .25em;
+        padding-right: .25em;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1276px) {
+
+
+/*------------Home Media For This Resolution Range-------------*/
+
+.service_buttons {
+	height: auto;
+}
+
+.row .thumbnail {
+	height: 56em;
+}
+
+.service_buttons img {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+}
+
+/*------------About Media For This Resolution Range--------------*/
+
+#about-container p {
+	font-size: 1.2em;
+}
+
+#map li {
+	width:100%;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1250px) {
+    
+/*---------Packouts & Restoration Media CSS For This Resolution Range----------*/
+    
+.pr-header h2 {
+    font-size: 3.75em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1225px) {
+
+/*----------------Storage Media CSS For This Resolution Range------------------*/
+
+.carousel-inner {
+	max-height: 50em;
+}
+
+.container-marketing #storage-last {
+	padding-left: .75em;
+	padding-right: .75em;
+	font-size: 2.75em;
+}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 1250px) {
+
+/*-----Universal Navbar Media For This Resoluton Range----------*/
+
+.navbar-header button {
+	background-color: white !important;
+}
+
+.dropdown-menu li a {
+	color: black !important;
+}
+
+nav ul li {
+	font-size: 1.25em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+nav ul li:hover {
+	border-bottom: none;
+}
+
+.navbar .nav .active a {
+	color: white !important;
+	border-bottom: none;
+  background-color: inherit !important;
+}
+
+.navbar-header button {
+	float: left;
+	position: absolute;
+	margin-left: 10px;
+}
+
+.navbar-header .navbar-brand {
+	display: none;
+}
+
+#navbar .nav {
+	background: white !important;
+}
+
+#navbar .nav .dropdown .dropdown-menu {
+	margin: auto !important;
+	width: 25em !important;
+	float: none !important;
+	position: relative !important;
+}
+
+#navbar .nav .dropdown .dropdown-menu li {
+	float: none !important;
+	clear: none !important;
+	position: relative !important;
+	text-align: center !important;
+	margin: auto !important;
+}
+
+#navbar .nav .active {
+	background: inherit !important;
+}
+
+#navbar .nav li a {
+	color: black !important;
+}
+
+#navbar .nav .active .dropdown-menu li a, #navbar .nav .active .dropdown-menu li {
+	background: white !important;
+	color: blue !important;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1199px) {
+    .ref-header h2 {
+        padding-top: 0;
+}
+    .ref-header #top-ref {
+        padding-top: 1.5em;
+}
+    .row .col-lg-4 p {
+        margin: auto;
+        width: 47.5em;
+}
+    .row .col-lg-4 #lower-ref {
+        padding-bottom: 1em;
+}   
+}
+
+@media screen and (min-width: 200px) and (max-width: 1185px) {
+
+	
+	/*------------------Storage Media CSS For This Resolution Range-------------------*/
+
+.container-marketing .storage-caps h2 {
+		font-size: 3.5em;
+}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 1175px) {
+
+/*-------Home Media For This Resolution Range-----------*/
+
+#home-opener img {
+	width: 95%;
+}
+
+.service_buttons .row .caption p {
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.element_header p {
+	font-size: 1em;
+}
+
+.element_header #left-logo img, .element_header #right-logo img {
+	width: 8em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1145px) {
+
+/*---------------Home Media CSS For This Resolution Range-----------------*/
+
+.service_buttons .col-sm-6 {
+	width: 100%;
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.service_buttons .col-sm-6 h3 {
+	font-size: 1.5em;
+}
+
+.service_buttons img {
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 25px;
+}
+
+.row .thumbnail {
+	height: auto !important;
+}
+    
+.row .col-sm-6 .caption p {
+    width: 50em;
+}
+
+
+/*------------------ContentsTrack Media CSS For This Resolution Range-------------------*/
+
+#ct-heading {
+    background-image: url("qr-code-transp.png");
+}
+	
+#ct-heading #ct-top-head, #ct-heading #ct-second-head, #ct-heading #rage-heading {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+}
+
+#ct-heading #ct-second-head, #ct-heading #rage-heading, #ct-heading #ct-bottom-head, #ct-heading #ct-bottom-bottom-head {
+    padding-top: 0;
+}
+
+#ct-heading #ct-bottom-head, #ct-heading #ct-bottom-bottom-head {
+    float: none;
+    bottom: 0em;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-left: 0;
+}
+    
+#tech-test-btm-btm-left img {
+    margin-top: 16em;    
+}
+    
+#ct-additional .col-sm-6 {
+     padding: 0px;
+}
+    
+#ct-additional .col-sm-6 p {
+    width: 100%;
+}
+    
+    #ct-additional #ct-benefits .ct-additional-divider {
+    padding: 0px; 
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1115px) {
+
+/*----------About Media For This Resolution Range-----------*/
+
+#about-container h1 {
+	font-size: 4em;
+}
+
+#about-container p {
+	width: 85%;
+}
+    
+#about-short-story .what {
+	float: none !important;
+	width: 100%;
+	margin: auto;
+}
+
+#about-short-story .who {
+	float: none !important;
+	width: 100%;
+	margin: auto;
+}
+    
+#about-short-story p {
+    width: 50em;
+}
+
+/*---------------ContentsTrack Media For This Resolution Range----------------*/
+
+#ct-heading {
+	background-size: 30em 30em;
+}
+
+#ct-heading #ct-upper-header {
+	font-size: 3em;
+}
+
+#ct-additional #ct-benefits {
+	font-size: 2.25em;
+	padding-bottom: 1em;
+}
+
+/*--------------------Storage Media CSS For This Resolution Range--------------------*/
+
+.carousel-inner {
+	max-height: 40em;
+	padding-top: 2.5em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1095px) {
+    
+/*----------------Home Media CSS For This Resolution Range-------------*/
+    
+#home-sub-opener p {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1075px) {
+
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#tech-test-btm-btm-left {
+	margin-left: 2px;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1049px) {
+
+/*--------------ContentsTrack Media CSS For This Resolution Range------------*/
+    
+#tech-test-btm-left, #tech-test-btm-right {
+    float: none;
+    width: 100%;
+}
+    
+#tech-test-btm-left {
+   margin-left: 0;     
+ }
+    
+#tech-test-btm-left p, #tech-test-btm-btm-right p {
+    width: 100%; 
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: left;
+}
+    
+#tech-test-btm-right img {
+    margin-top: 2em; 
+    width: 40em;
+}
+    
+#tech-test-btm-btm-left, #tech-test-btm-btm-right {
+    float: none;
+    width: 100%;
+}
+    
+#tech-test-btm-btm-right p {
+    text-align: left;  
+}
+    
+#tech-test-3 {
+   overflow-x: hidden;     
+}
+    
+#tech-test-btm-btm-left img {
+    margin-top: 7.5em;    
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1045px) {
+
+/*-----------------Testimonials Media CSS For This Resolution Range------------------*/
+
+.test-container {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#test-heading #banner {
+		width: 100%;
+		left: 0;
+		min-height: 17em;
+	}
+
+#test-heading #left-logo {
+	left: 3.25em;
+	top: 11em;
+}
+
+#test-heading #right-logo {
+	right: 3.25em;
+	top: 5em;
+}
+
+.test-container .gray-test p {
+	padding-left: 1em;
+}
+
+.test-container .white-test p {
+	padding-right: 1em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1025px) {
+    
+/*-----------Packouts & Restoration Media CSS For This Resolution Range----------------*/
+    
+.services-container {
+    width: 98.5%;
+}
+    
+.services-container div {
+   padding-left: 1em;
+    padding-right: 1em;
+}
+    
+.services-container .emergency-tip {
+    width: 100%;  
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1010px) {
+    
+/*-----------------ContentsTrack Media CSS For This Resolution Range----------------*/
+#tech-btm-btm-left {
+    width: 100%;    
+}
+
+#tech-btm-btm-left p {
+    width: 100%;  
+    padding-right: .5em;
+    padding-left: .5em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+    
+/*------------Contact Page Media CSS For This Resolution Range------------*/
+    
+#about-map #map {
+    width: 100%;
+    margin: auto;
+    padding-top: 2.5em;
+}
+}
+    
+@media screen and (min-width: 200px) and (max-width: 990px) {
+    
+.ref-header .row .col-xs-6 {
+    height: auto;
+    margin-top: -3.5em;
+    margin-bottom: -3.5em;
+}
+    
+.ref-header .row #top-ref {
+    margin-top: .5em;
+}
+    
+.ref-header p {
+   padding-right: 2em;
+    padding-left: 2em;
+}
+    
+@media screen and (min-width: 200px) and (max-width: 975px) {
+
+/*-------------Home Media CSS For This Resolution Range----------------*/
+
+#home-sub-opener h3 {
+	font-size: 3.75em;
+}
+
+#home-sub-opener p {
+	font-size: 1.25em;
+}
+
+.service_buttons .row img {
+	padding-left: 175px;
+	padding-right: 175px;
+}
+
+.service_buttons .row .caption p {
+	width: 95%;
+}
+
+/*----------------ContentsTrack Media For This Resolution Range------------*/
+
+#ct-heading {
+	background-size: 30em 30em;
+}
+
+#ct-heading #ct-upper-header {
+	font-size: 2.5em;
+	padding-top: 6em;
+}
+    
+@media screen and (min-width: 200px) and (max-width: 930px) {
+
+/*-------------ContentsTrack Media CSS For This Resolution Range------------------*/
+    
+#tech-test-2, #tech-test-3, #tech-test-4 {
+    overflow: visible;
+}
+
+#tech-test-left, #tech-test-right {
+	float: none;
+	width: 100%;
+}
+
+#tech-test-right p, #tech-test-btm-left p, #tech-test-btm-btm-right p, #tech-btm-btm-left p {
+	width: 100%;
+	margin: auto;
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+}
+    
+#tech-test-btm-btm-left img {
+    margin-top: 1.5em;
+}
+
+#tech-test-btm-left h2 {
+	margin-top: 1.5em;
+	font-size: 2em;
+}  
+
+#tablet-heading, #ct-paper {
+	margin-top: .25em;
+	font-size: 2em;
+}
+
+#ct-additional .col-sm-6, .row .col-sm-6 #ct-add, #ct-additional .col-sm-6 p {
+	width: 100%;
+    border: 0px;
+}
+    
+#ct-additional .caption img {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+    
+#ct-additional #ct-benefits {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    
+}
+    
+/*---------------Storage Media CSS For This Resolution Range-----------------------*/
+
+.container-marketing {
+	background: white;
+	background-color: white;
+}
+
+.container-marketing .storage-caps h2 {
+	font-size: 2.5em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 915px) {
+
+	#email-header p {
+		width: 100%;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    
+/*----------About Media CSS For This Resolution Range------------*/
+    
+#about-wrapper #about-left, #about-wrapper #about-left #insurance-list, #about-wrapper #about-left #insurance-list ul li {
+    width: 100%;
+    margin: auto;
+}
+    
+#about-wrapper #about-left #insurance-list ul {
+   margin-right: 4em; 
+}
+    
+#about-left table {
+    float: none;  
+}
+    
+/*-----------Packouts & Restoration Media CSS For This Resolution Range------------*/
+    
+hr.right-line {
+    width: 100%;  
+    padding: 0;
+}
+    
+/*-------------Refinishing Media CSS For This Resolution Range------------*/
+    
+.reup-fill h1 {
+    font-size: 3.5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+/*------------ContentsTrack Medai CSS For This Resolution Range--------------*/
+
+.ct-heads {
+	font-size: 2em;
+}
+
+/*----------Contact & Feedback Media For This Resolution Range-----------*/
+
+.email-button {
+	height: 450px;
+}
+
+.email-button #right-email img {
+	width: 10em;
+}
+}
+
+@media (max-width: 880px) {
+
+/*---------------Home Media CSS For This Resolution Range----------------*/
+
+.service_buttons #service_header {
+	font-size: 2em;
+}
+
+/*------------Universal Width Media For This Resolution Range----------*/
+
+.footer-distributed{
+	font: bold 14px sans-serif;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.footer-left h3 {
+	font-size: 2.5em;
+}
+
+.footer-distributed .footer-center {
+	margin-bottom: 35px;
+}
+
+.footer-distributed .footer-center i{
+	margin-left: 0;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 875px) {
+    
+/*-----------Testimonials Media CSS For This Resolution Range--------------*/
+    
+.test-container p {
+    width: 35em;
+}
+    
+/*------------Footer Media CSS For This Resolution Range-------------*/
+    
+.footer-center {
+    position: relative;
+    padding-right: 2.25em !important;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 825px) {
+    
+/*-------------About Media CSS For This Resolution Range-------------*/
+    
+#about-short-story p {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+    font-size: 1em !important;
+}
+
+/*-------------------Refinishing Media CSS For This Resolution Range---------------------*/
+
+.reup-fill h1 {
+    font-size: 3.5em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 780px) {
+
+/*------------Home Media CSS For This Resolution Range---------------*/
+
+.service_buttons img {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+/*-----------About Media CSS For This Resolution Range--------------*/
+
+#about-container img {
+	width: 100%;
+	border-radius: 0px;
+}
+
+/*------------ContentsTrack Media For This Resolution Range--------------*/
+
+#ct-heading #ct-upper-header {
+	font-size: 2em;
+}
+
+.row #ct-add h3 {
+	letter-spacing: 1.75px;
+	font-size: 1.35em;
+}
+
+/*----------Contact & Feedback Media For This Resolution Range-----------*/
+    
+.email-header h1 {
+	font-size: 3.5em;
+}
+
+.email-header p {
+	width: 95%;
+}
+
+/*----------------------Storage Media CSS For This Resolution Range-------------------*/
+
+.container-marketing #center-storage-cap {
+	padding-left: 1.25em;
+}
+
+/*----------------------Testimonials Media CSS For This Resolution Range-----------------*/
+
+#test-heading #right-logo  {
+	top: 0em;
+}
+
+#test-heading #left-logo {
+	top: 6em;
+}
+
+.test-container p {
+	width: 30em;
+}
+}
+    
+@media screen and (min-width: 200px) and (max-width: 750px) {
+    
+/*-------------Packouts & Restoration Media CSS For This Resolution Range------------*/
+    
+.services-container {
+        overflow-x: hidden;
+ }
+    
+.services-container #emergency-tips p {
+    margin: auto;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 745px) {
+
+/*-------------ContentsTrack Media CSS For This Resolution Range-------------*/
+
+.ct-body-heads {
+    font-size: 2em;
+    margin-left: 0px;
+}
+
+
+/*--------------Contact Media CSS For This Resolution Range--------------*/
+
+#email-header h1 {
+	padding-top: 1.75em;
+	font-size: 2.25em;
+}
+
+#email-header p {
+	font-size: 1em;
+}
+#email-container {
+	margin-top: 0;
+	width: 100%;
+	border-radius: 0;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 725px) {
+
+/*-----------------Home Media CSS For This Resolution Range----------------*/
+
+.service_buttons .row img {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.service_buttons .row .col-sm-6 {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.service_buttons .row h3 {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	text-decoration: none;
+}
+    
+/*------------Refinishing Media CSS For This Resolution Range----------------*/
+    
+.row .col-lg-4 p {
+    width: 100%;   
+}
+
+/*--------------Storage Media CSS For This Resolution Range----------------*/
+
+	.container-marketing {
+		margin-bottom: .25em;
+	}
+
+	.container-marketing .storage-caps h2 {
+		font-size: 1.75em;
+	}
+
+	.container-marketing #storage-last {
+		font-size: 1.5em;
+	}
+
+	.container-marketing #left-storage-cap, .container-marketing #center-storage-cap {
+		padding-right: 1em;
+		padding-bottom: 5em;
+	}
+
+	.container-marketing #left-storage-cap h2 {
+		padding-top: 2.5em;
+	}
+
+}
+    
+@media screen and (min-width: 200px) and (max-width: 675px) {
+
+/*-----------Universal Media CSS For This Resolution Range------------*/
+
+.navbar #phone_number {
+	font-size: 1em;
+}
+
+/*--------Home Media For This Resolution Range-------------*/
+
+.element_header {
+	height: auto;
+	width: 100%;
+}
+
+.element_header #left-logo img, .element_header #right-logo img {
+	width: 4em;
+}
+
+.element_header #left-logo, .element_header #right-logo {
+	margin-top: 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	vertical-align: center;
+}
+
+/*----------About Media CSS For This Resolution Range-------------*/
+
+#about-container h1 {
+	font-size: 3em;
+}
+
+#about-container p {
+	width: 95%;
+}
+
+#about-short-story .what p, #about-short-story .who p {
+    width: 100%;
+    font-size: 1.2em;
+}
+    
+/*------------Packouts & Restoration Media CSS For This Resolution Range-----------*/
+    
+.pr-header h2 {
+    font-size: 2.5em;
+}
+    
+.services-container h3 {
+    font-size: 1.5em;
+}
+    
+.services-container li {
+    font-size: .9em;
+}
+
+/*-------------ContentsTrack Media For This Resolution Range----------------*/
+
+#ct-heading #ct-upper-header {
+	line-height: 3em;
+}
+
+/*--------------Packouts & Restoration Media CSS For This Resolution Range------------*/
+
+#pr-heading-table .pr-jump-notice {
+	margin-top: 1em;
+}
+
+/*--------------------Testimonials Media CSS For This Resolution Range----------------*/
+
+.test-container p {
+	width: 25em;
+}
+    
+/*----------Contact Media CSS For This Resolution Range-------------*/
+    
+#about-map {
+	width: 100%;
+	margin: auto;
+}
+
+#map {
+	width: 100%;
+	margin: auto;
+}
+
+#map ul {
+	padding-right: 25px;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 30em;
+	background-color: #ccc;
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 0px 2px 2px 2px black;
+}
+
+#contact-left, #contact-right {
+	float: none;
+	width: 100%;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+
+/*-----------Home Media CSS For This Resolution Range--------------*/
+
+#home-sub-opener p {
+	padding-bottom: .25em;
+}
+
+.service_buttons #service_header {
+	font-size: 1.75em;
+}
+
+.row .col-sm-6 {
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+.row .col-sm-6 .caption p {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	line-height: 20px;
+}
+    
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#ct-additional .caption img {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+/*---------------Packouts & Restoration Media CSS For This Resolution Range-----------*/
+    
+.pr-header h2 {
+    font-size: 3em;
+}
+
+/*-------------------Refinishing Media CSS For This Resolution Range-------------------*/
+
+.ref-header p {
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+    
+@media screen and (min-width: 200px) and (max-width: 625px) {
+
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#ct-additional #ct-benefits {
+     font-size: 2em;   
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 575px) {
+
+
+/*---------------Home CSS Media For This Resolution Range-------------*/
+
+#home-opener img {
+	width: 100%;
+	border-radius: 0px;
+}
+
+#home-sub-opener {
+	width: 100%;
+}
+
+#home-sub-opener p {
+	font-size: 1.05em;
+	line-height: 1.1em;
+}
+
+#home-sub-opener h3 {
+	font-size: 2.5em;
+}
+    
+.row .col-sm-6 .caption p {
+    font-size: .9em;
+    line-height: 1.3em;
+}
+
+
+/*--------------About CSS Media For This Resolution Range----------------*/
+
+#about-container h1 {
+	font-size: 2.5em;
+}
+
+#about-container p {
+	font-size: 1.05em;
+}
+    
+/*-------------Packouts & Restoration Media CSS For This Resolution Range------------*/
+    
+.packouts-main h1, .restoration-main h1, .cleanups-main h1 {
+    text-align: left;
+}
+    
+/*--------------Refinishing Media CSS For This Resolution Range----------------*/
+    
+.reup-fill h1 {
+    font-size: 2.25em;
+}
+
+/*-------------Contents Track Media For This Resolution Range------------*/
+
+#ct-heading {
+	background-size: 15em 15em;
+	background-position: center 18em;
+	height: auto;
+}
+
+#ct-heading #jump-button {
+  font-size: 0.9em;
+}
+
+#ct-heading #ct-top-head, #ct-heading #ct-second-head, #ct-heading #rage-heading, #ct-heading #ct-bottom-head, #ct-heading #ct-bottom-bottom-head {
+	font-size: 2em;
+}
+
+.ct-heads {
+  font-size: 1.5em;
+}
+
+#ct-heading #ct-top-head {
+	padding-top: 3em;
+}
+
+#ct-heading #ct-bottom-bottom-head {
+	padding-bottom: 2.5em;
+}
+
+#tech-test-right p, #tech-test-btm-left p, #tech-test-btm-btm-right p, #tech-btm-btm-left p, .row #ct-add p {
+	font-size: 1.2em;
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: left;
+}
+
+.row #ct-add {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*-----------------Testimonials Media CSS For This Resolution Range------------------*/
+
+#test-body {
+	background: white;
+}
+
+#test-heading h2 {
+	font-size: 2em;
+}
+
+#test-heading p {
+	font-size: 1em;
+}
+
+.test-container {
+	padding-left: .4em;
+	padding-right: .4em;
+	border: none;
+}
+
+.test-container .gray-test {
+	background-position: center center;
+	background-size: 18em;
+	background-image: url('thumbs-up-gray-transp.jpg');
+	border-top: 0;
+	border-bottom: 0;
+	box-shadow: none;
+}
+
+.test-container .white-test {
+	background-position: center center;
+	background-size: 18em;
+	background-image: url('thumbs-up-white-transp.jpg');
+	padding-left: .25em;
+	padding-right: .25em;
+	border-top: 0;
+	border-bottom: 0;
+	box-shadow: none;
+}
+
+.test-container .gray-test p, .test-container .white-test p {
+	float: none;
+	width: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-weight: bold;
+}
+
+#test-footer {
+	margin-top: 5em;
+	border-top: 5px double black;
+}
+    
+/*-----------Contact Media CSS For This Resolution Range------------*/
+    
+#map ul {
+	padding-right: 4em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 545px) {
+
+/*----------------Storage Media CSS For This Resolution Range--------------------*/
+
+.container-marketing #left-storage-cap {
+	padding-top: 3.5em;
+	padding-bottom: 2.5em;
+}
+
+.container-marketing #center-storage-cap {
+	padding-bottom: 2.5em;
+}
+
+.container-marketing .storage-caps h2 {
+	font-size: 1.25em;
+}
+
+.container-marketing #storage-last {
+	margin-top: 2.5em;
+}
+}
+
+@media screen and (max-height: 875px) and (max-width: 525px) {
+  
+/*-----------Packouts & Restoration Media CSS For This Resolution Range-----------*/
+
+#pr-heading-table td p {
+	margin-top: 1.25em;
+	width: 98.5%;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 505px) {
+
+/*----------------ContentsTrack Media CSS For This Resolution Range---------------*/
+
+#tech-test-1 p, #tech-test-2 p, #tech-test-3 p, #tech-test-4 p {
+	padding-left: 1.15em;
+	padding-right: 1.15em;
+}
+    
+.row #ct-add p {
+    text-align: left;
+}
+
+#ct-additional #ct-benefits {
+	font-size: 1.85em;
+}
+
+/*------------------Testimonials Media CSS For This Resolution Range---------------*/
+
+    #left-pencil, #right-pencil {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 10px) and (max-width: 475px) {
+
+/*---------------Navbar Media CSS For This Resolution Range-------------*/
+
+#navbar .nav .dropdown .dropdown-menu, #navbar .nav .dropdown .dropdown-menu li {
+	width: 100% !important;
+}
+  
+/*-----------Packouts & Restoration Media CSS For This Resolution Range-----------*/
+
+.packouts-main h1, .restoration-main h1, .cleanups-main h1 {
+	font-size: 1em;
+}
+    
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#tech-test-1 {
+    overflow-x: hidden;
+}
+    
+#tech-test-btm-btm-left img {
+    width: 100%;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+@media screen and (max-height: 775px) and (max-width: 425px) {
+    
+/*-------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+#ct-additional #ct-benefits {
+    font-size: 1.85em;
+}
+  
+/*----------Packouts & Restoration Media CSS For This Resolution Range-----------*/
+
+#pr-heading-table h3 {
+	width: 100%;
+	font-size: 1.4em;
+}
+
+#pr-heading-table .pr-jump-notice {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+
+#navbar .nav .dropdown .dropdown-menu, #navbar .nav .dropdown .dropdown-menu li {
+	width: 100% !important;
+}
+
+/*------------------Storage Media CSS For This Resolution Range------------------------*/
+
+.container-marketing .storage-caps h2 {
+	font-size: 1em;
+}
+
+.container-marketing .storage-caps img, .container-marketing #left-storage-cap img {
+	width: 7.5em;
+}
+
+.container-marketing #center-storage-cap h2, .container-marketing #right-storage-cap h2 {
+	margin-top: -.25em;
+}
+
+.container-marketing #storage-last {
+	font-size: 1.15em;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 510px) {
+
+/*-----------Home Media For This Resolution Range-------------*/
+
+.element_header p {
+	width: 90%;
+}
+
+.element_header #left-logo {
+	display: none;
+}
+
+.element_header #right-logo {
+	float: none;
+	margin: auto;
+	position: relative;
+}
+
+.elements .col-xs-6 {
+	width: 100%;
+}
+
+.footer-distributed h3 {
+	font-size: 20px;
+}
+
+/*------------ContentsTrack Media For This Resolution Range-------------*/
+
+#ct-heading #ct-upper-header {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 7em;
+}
+
+#ct-additional .col-sm-6, #ct-additional .col-sm-6 .caption {
+	width: 100%;
+}
+
+#ct-additional .col-sm-6 p {
+	width: 100%;
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+  
+/*----------About Media CSS For This Resolution Range----------*/
+
+#about-container h1 {
+	font-size: 2em;
+}
+
+#about-short-story h2 {
+	font-size: 2.25em;
+}
+    
+#about-left table td img {
+  width: 10em;
+	height: 10em;
+	padding: 10px;
+}
+
+#about-left table td #nifr {
+	width: 10em;
+	height: 15em;
+	padding: 10px;
+}
+    
+/*--------------ContentsTrack Media CSS For This Resolution Range--------------*/
+    
+.pr-header h2 {
+     font-size: 2.25em;   
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 375px) {
+
+/*-----------ContentsTrack Media CSS For This Resolution Range-----------------*/
+
+	.ct-heads {
+		font-size: 1.35em !important;
+	}
+
+	#ct-heading {
+		background-size: 12.5em 12.5em;
+        background-position: center 15em;
+	}
+}
+
+/*-------------HEIGHT MEDIA CSS----------*/
+
+
+@media screen and (min-height: 950px) {
+  
+/*-------------Home Height Media CSS For This Resolution Range----------------*/
+  
+#home-sub-opener p{
+	margin-top: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+  
+/*------------About Height Media CSS For This Resolution Range---------------*/
+  
+#about-container p {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+  
+/*-----------ContentsTrack Height Media CSS For This Resolution Range-------------*/
+
+#ct-heading #jump-button {
+  margin-top: 15em;
+}
+}
+
+@media screen and (max-height: 850px) {
+  
+/*------------ContentsTrack Height Media CSS For This Resolution Range------------*/
+
+#ct-heading #jump-button {
+	margin-top: 5em;
+}
+}
+
+@media screen and (max-height: 725px) {
+
+/*------------ContentsTrack Height Media CSS For This Resolution Range------------*/
+
+#ct-heading #ct-upper-header {
+	margin-bottom: 2em;
+}
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
